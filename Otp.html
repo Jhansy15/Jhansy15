@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enter OTP</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding: 50px;
+    }
+    .otp-form {
+      max-width: 400px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group label {
+      font-weight: bold;
+    }
+    .form-control {
+      height: 40px;
+    }
+    .btn-submit {
+      width: 100%;
+      height: 40px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-submit:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="otp-form">
+  <h3 class="mb-3">Enter OTP</h2>
+  <form>
+    <div class="form-group">
+      <label for="otp"></label>
+      <input type="text" id="otp" name="otp" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-submit">Submit</button>
+  </form>
+</div>
+
+<!-- Bootstrap JS and dependencies (optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+</html>
